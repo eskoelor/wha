@@ -34,7 +34,7 @@ section {
 display: flex;
 flex-direction: column;
   position: relative;
-  z-index: 1;
+  z-index: 10;
  background-image: url('./img/cikk-backgrou-ici-piciezgif-3-0c96186ed5.jpg');
 
   box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52);
@@ -188,118 +188,139 @@ line-height: 2rem;
 }
 
 /*footer*/
-footer {
-  position: sticky;
- /* height: 200px;*/
-  background-color: rgb(3, 3, 116);
-  color: #ede27b;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 900;
-bottom: 0;
- 
+.placeholder {
+  position: relative;
+  height: 247px;
+  background-color: yellow;
+  z-index: 1;
 }
 
-footer::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 12px;
-left: 0;
-  top: 0;
-  box-shadow:   box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52) inset;
-  -webkit-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52) inset;
-  -moz-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52) inset;
-}
+  /*footer*/
+  footer {
+   z-index: 5;
+    min-height: 247px;
+    max-height: auto;
+    position: fixed;
+    width: 100%;
+   
+    background-color: rgb(3, 3, 116);
 
-.footer-container {
-  position: sticky;
+    color: #ede27b;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
   bottom: 0;
-  display: flex;
-  justify-content: space-around;
- /* align-items: center;*/
-}
-
-.icon-footer {
-  fill: #ede27b;
-  width: 32px;
+   z-index: 1;
+   vertical-align: baseline;
+  }
   
- 
-}
-
-
-
-
-.adress-container {
+  footer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 12px;
+  left: 0;
+    top: 0;
+    box-shadow:   box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52) inset;
+    -webkit-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52) inset;
+    -moz-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52) inset;
+  }
   
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-footer p {
-
-display: flex;
- 
-}
-
-
-.p-adress {
-  color: #ede27b;
-
-}
-
-footer a {
-text-transform: none;
-color: #c1d0ff;
-font-size: 1rem;
-
-margin-left: 5px;
-}
-
-footer a:hover {
-color: #cde6e9;
-}
-
-
-
-.facebook-to-hover {
-  transition: 0.3s;
-}
-
-.facebook-to-hover:hover {
-fill: #f5f3cc;
-}
-
-
-
-.strazs-img-container {
-  width: 40%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .footer-container {
+    
+  bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    /*align-items: center;*/
+    height: 247px;
+  }
   
-}
-
-.footer-img-tanya {
-  height: 90px;
-}
-
-.vyshyvanka-img-container {
- width: 30%;
- display: flex;
- justify-content: flex-end;
-
-}
-
-.vyshyvanka-img-container img {
+  .icon-footer {
+    fill: #ede27b;
+    width: 32px;
+    
+   
+  }
+  
+  
+  
+  
+  .adress-container {
+    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer p {
+  
   display: flex;
-  height: 100%;
-  margin-right: 7vw;
+   
+  }
+  
+  
+  .p-adress {
+    color: #ede27b;
+  
+  }
+  
+  footer a {
+    text-decoration: none;
+  text-transform: none;
+  color: #c1d0ff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 5px;
+  }
+  
+  footer a:hover {
+  color: #cde6e9;
+  }
+  
+  
+  
+  .facebook-to-hover {
+    transition: 0.3s;
+  }
+  
+  .facebook-to-hover:hover {
+  fill: #f5f3cc;
+  }
+  
+  
+  
+  .strazs-img-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+   /* justify-content: center;*/
+    
+  }
+  
+  .footer-img-tanya {
+    height: 90px;
+  }
+  
+  .vyshyvanka-img-container {
+   /*width: 30%;
+   display: flex;
+   justify-content: flex-end;*/
 
 
-
- 
-}
+   display: flex;
+   background-image: url('./img/vyshyvanka-bigger.svg');
+   background-repeat: repeat-y;
+   background-color: white;
+   width: 4.1%;
+  
+   background-size: contain;
+   margin-right: 6vw;
+  }
+  
+  .vyshyvanka-img-container img {
+    display: flex;
+    height: 100%;
+    margin-right: 7vw;
+  }
 
