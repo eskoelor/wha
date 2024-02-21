@@ -188,19 +188,19 @@ line-height: 2rem;
 }
 
 /*footer*/
-.placeholder {
+/*.placeholder {
   position: relative;
   height: 247px;
   background-color: yellow;
   z-index: 1;
-}
+}*/
 
   /*footer*/
   footer {
    z-index: 5;
     min-height: 247px;
     max-height: auto;
-    position: fixed;
+  /*  position: fixed;*/
     width: 100%;
    
     background-color: rgb(3, 3, 116);
