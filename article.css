@@ -40,7 +40,7 @@ flex-direction: column;
   box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52);
   -webkit-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52);
   -moz-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52);
-   padding-bottom: 26%; /*18%cuz of mobile screen height*/
+   padding-bottom: 30%; /*18%cuz of mobile screen height*/
 }
 
 
