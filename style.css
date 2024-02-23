@@ -73,6 +73,7 @@ h1 {
   grid-template-rows: 1fr 1fr;
   margin-right: 10vw;
   margin-bottom: 45px;
+  z-index: 11;
   
   
 }
