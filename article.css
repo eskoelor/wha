@@ -42,7 +42,9 @@ flex-direction: column;
   -moz-box-shadow: -2px 15px 5px -6px rgba(0,0,0,0.52);
    padding-bottom: 30%; /*18%cuz of mobile screen height*/
 }
-
+.container {
+  height: 100vh;
+}
 
 .link-padding {
   margin-bottom: 6px/*19px3.5%*/;
