@@ -1,4 +1,10 @@
+@font-face {
+ 
+  font-family: 'Cardo';
 
+  src: url(./fonts/Cardob101.ttf);
+  
+}
 
 body {
   margin: 0;
